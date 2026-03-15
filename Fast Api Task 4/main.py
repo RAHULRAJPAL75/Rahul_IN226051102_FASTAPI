@@ -3,7 +3,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# -------- PRODUCTS DATABASE --------
 products = {
     1: {"name": "Wireless Mouse", "price": 499, "in_stock": True},
     2: {"name": "Notebook", "price": 99, "in_stock": True},
